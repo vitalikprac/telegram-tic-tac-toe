@@ -74,6 +74,7 @@ export const useGame = () => {
     setState(GAME_STATES.FIRST_PLAYER_TURN);
     setCurrentPlayer(FIRST_PLAYER);
     setMessage(createTurnMessage(FIRST_PLAYER));
+    setWinCombination(null)
     Telegram.reset();
   };
 
