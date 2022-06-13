@@ -41,7 +41,7 @@ const getMessage = (game) => {
   if (game.you === currentPlayer.id.toString()) {
     return `It's your turn (${getName(currentPlayer)})`;
   } else {
-    return `It' s your opponent turn (${getName(oppositePlayer)})`;
+    return `It' s your opponent turn (${getName(currentPlayer)})`;
   }
 };
 
@@ -56,7 +56,6 @@ function App() {
       <h1>Tic Tac Toe</h1>
       <div className="description">
         It's a short description of playing tic tac toe
-        {JSON.stringify(game)}
       </div>
       <div className="message">{message}</div>
       <div className="game">
