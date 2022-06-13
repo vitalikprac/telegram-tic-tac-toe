@@ -3,3 +3,5 @@ export const GAME_STATES = {
   SECOND_PLAYER_TURN: 'secondPlayerTurn',
   GAME_OVER: 'gameOver',
 };
+
+export const SERVER_URL = 'https://tictactoe-telegram.ddns.net:4000';
