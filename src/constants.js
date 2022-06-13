@@ -4,4 +4,4 @@ export const GAME_STATES = {
   GAME_OVER: 'gameOver',
 };
 
-export const SERVER_URL = 'https://tictactoe-telegram.ddns.net:4000';
+export const SERVER_URL = 'https://ec2-vitalik.ddns.net/node';
