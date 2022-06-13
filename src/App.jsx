@@ -56,6 +56,7 @@ function App() {
       <h1>Tic Tac Toe</h1>
       <div className="description">
         It's a short description of playing tic tac toe
+        {JSON.stringify(game)}
       </div>
       <div className="message">{message}</div>
       <div className="game">
